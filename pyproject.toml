@@ -195,7 +195,6 @@ exclude = [
 
 [tool.hatch.build.targets.sdist]
 include = [ "shippinglabel", "requirements.txt", "tests", "tox.ini",]
-# Source archives carry downstream test inputs; wheels retain the shared exclusions.
 exclude = []
 
 [tool.hatch.build.wheel]
